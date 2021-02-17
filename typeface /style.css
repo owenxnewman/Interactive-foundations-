@@ -1,0 +1,109 @@
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #100; 
+  /*margin: 10px;*/
+}
+
+.Isquare {
+  height: 50px;
+  width: 50px;
+  background-color: #100;
+  float:  
+  /*margin: 10px;*/
+}
+
+.square-r {
+  height: 50px;
+  width: 50px;
+  background-color: #100;
+  /*margin: 10px;*/
+  position: relative;
+  float:left;top: 50px}
+
+.right1 {height: 50px;
+  width: 50px;
+  background-color: #100;
+  /*margin: 10px;*/
+  position: relative;
+  float: left;:50px
+  }
+
+.right2 {height: 50px;
+  width: 50px;
+  background-color: #100;
+  /*margin: 10px;*/
+  position: relative;
+  float: left;:50px}
+
+
+.right3 {height: 150px;
+    width: 50px;
+    background-color: #100;
+    /* margin: 10px; */
+    position: relative;
+    float: left;
+    bottom: 50px;
+}
+
+.right4 {height: 50px;
+    width: 50px;
+    background-color: #100;
+    /* margin: 10px; */
+    position: relative;
+    float: left;
+    bottom: 100px;
+    
+}
+
+.right5 {height: 50px;
+    width: 50px;
+    background-color: #100;
+    /* margin: 10px; */
+    position: relative;
+    float: left;
+    botto: : 100px;
+    
+}
+
+
+
+/*.right4 {height: 50px;
+  width: 50px;
+  background-color: #100;
+  margin: 10px;
+  position: relative;
+  float: left;:50px
+top 50px}*/
+
+/*.right5 {
+  height: 50px;
+  width: 50px;
+  background-color: #100;*/
+  /*margin: 10px;*/
+  /*position: relative;
+  float: left;:50px
+top 50px}
+}*/
+
+
+/*.circle{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+
+	position: relative;
+}
+
+.small-square{
+	width: 10px;
+	height: 10px;
+	background: yellow;
+	
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+*/
