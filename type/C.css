@@ -1,0 +1,36 @@
+.square {
+  height: 150px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:0px; top: 50px 
+  /*margin: 10px;*/
+}
+
+.square2 {
+  height: 50px;
+  width: 200px;
+  background-color: #100;
+  position: absolute;
+  left:50px; top: 0px 
+  /*margin: 10px;*/
+}
+
+.square3 {
+  height: 200px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:200px; top: 50px 
+  /*margin: 10px;*/
+}
+
+.square4 
+{
+  height: 50px;
+  width: 200px;
+  background-color: #100;
+  position: absolute;
+  left:50px; top: 200px 
+  /*margin: 10px;*/
+}

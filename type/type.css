@@ -1,0 +1,26 @@
+.square {
+  height: 250px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:0; top: 0 
+  /*margin: 10px;*/
+}
+
+.square-right {
+  height: 250px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:200px; top: 0 
+  /*margin: 10px;*/
+}
+
+.bar {
+  height: 50px;
+  width: 200px;
+  background-color: #100;
+  position: absolute;
+  left:0px; top: 80px 
+  /*margin: 10px;*/
+}

@@ -1,0 +1,40 @@
+.square {
+  height: 250px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:0; top:0px;  
+ 
+ 
+ 
+}
+
+.square2 {
+  height: 50px;
+  width: 200px;
+  background-color: #100;
+  position: absolute;
+  left:0; top:0px;  
+ 
+ 
+}
+
+.square3 {
+  height: 50px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:200px; top: 50px;
+ 
+ 
+}
+
+.square4 {height: 50px;
+  width: 200px;
+  background-color: #100;
+  position: absolute;
+  left:0; top:100px;  
+  
+ 
+}
+

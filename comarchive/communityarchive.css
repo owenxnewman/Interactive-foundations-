@@ -1,0 +1,172 @@
+
+pre {font-family: "Lobter"}
+
+@font-face {
+  font-family: "Lobter";
+  src: url("fonts/Lobster-Regular.ttf") format("truetype")
+ 
+}
+
+
+body {
+  background-color: lightblue;
+	font-family: "arial", Times, serif;
+	margin: 50px;
+
+   } 
+
+
+h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive; 
+	margin: 55px; text-align: center; 
+} 
+
+h2 {
+  font-family: comic sans ; 
+  margin: 55px; text-align: center; 
+} 
+
+h3 {
+  font-family: comic sans ; 
+  margin: 55px; text-align: center; 
+} 
+
+
+/*div {
+  text-align: center;
+} */
+
+
+img{
+  width: 100%;
+  height: 100%
+  margin:100px;
+}
+
+
+/*.steps {text-align: center;}*/
+
+.leftsteps {}
+
+
+.flex-container{
+  display: flex;
+}
+
+.grand{
+  flex: 2;
+}
+
+ .content{
+  flex: 1;
+  padding: 1rem;
+}
+
+.cabb{
+  flex: 2;
+}
+
+  .content1{
+  flex: 1;
+  padding: 1rem;
+}
+
+
+.thrash {flex: 2;
+        }
+
+  .content2{
+  flex: 1;
+  padding: 1rem;
+}
+
+
+.gonz {flex: 2;}
+
+  .content3{
+  flex: 1;
+  padding: 1rem;
+}
+
+
+.drop {flex: 2;}
+
+  .content4{
+  flex: 1;
+  padding: 1rem;
+}
+
+.street {flex: 2;}
+
+  .content5{
+  flex: 1;
+  padding: 1rem;
+}
+
+
+figcaption{
+  visibility: hidden;
+  /*font-size:100;*/
+  color: darkblue 
+}
+
+.grand:hover figcaption{
+  visibility: visible;
+}
+
+.thrash:hover figcaption{
+  visibility: visible;
+}
+
+
+.gonz:hover figcaption{
+  visibility: visible;
+}
+
+
+.drop:hover figcaption{
+  visibility: visible;
+}
+
+
+.street:hover figcaption{
+  visibility: visible;
+}
+
+
+.cabb:hover figcaption{
+  visibility: visible;
+}
+
+
+.old:hover figcaption{
+  visibility: visible;
+}
+
+
+.stace:hover figcaption{
+  visibility: visible;
+}
+
+pre {text-align: center;
+  font-size: 30px
+}
+/*.grand{
+
+}*/
+/*.square {
+  height: 50px;
+  width: 50px;
+  background-color: #3343;} 
+  /*margin: 10px;*/
+
+/*img {margin:50px;}
+
+*/
+
+/*p-1 {position: absolute: middle */
+
+/*grand.jpg {vertical-align: top 1000px;}*/
+
+/*p {display: inline block }*/
+

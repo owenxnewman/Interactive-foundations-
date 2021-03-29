@@ -1,0 +1,45 @@
+.square {
+  height: 250px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:0; top: 0 
+  /*margin: 10px;*/
+}
+
+.square-right {
+  height: 250px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:200px; top: 0 
+  /*margin: 10px;*/
+}
+
+.mid {
+  height: 50px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:50px; top: 150px 
+  /*margin: 10px;*/
+}
+
+.mid2 {
+  height: 50px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:100px; top: 100px 
+  /*margin: 10px;*/
+}
+
+
+.mid3 {
+  height: 50px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:150px; top: 150px 
+  /*margin: 10px;*/
+}

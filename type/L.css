@@ -1,0 +1,17 @@
+.square {
+  height: 50px;
+  width: 250px;
+  background-color: #100;
+  position: absolute;
+  left:0; top: 200px 
+ 
+}
+
+.leg {
+  height: 250px;
+  width: 50px;
+  background-color: #100;
+  position: absolute;
+  left:0; top: 0 
+ 
+}
