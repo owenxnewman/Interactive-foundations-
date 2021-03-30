@@ -1,5 +1,8 @@
 
-pre {font-family: "Lobter"}
+pre {font-family: 'Chango', cursive;
+/*position: absolute;top;left: 
+*/}
+/*{font-family: "Lobter"}*/
 
 @font-face {
   font-family: "Lobter";
@@ -7,27 +10,37 @@ pre {font-family: "Lobter"}
  
 }
 
+figcaption{
+ font-family: 'Chango', cursive;
+ /* font-family: 'Comic Neue', cursive;*/
+  visibility: hidden;
+  font-size: 100px;
+  color: red; 
+}
 
 body {
   background-color: lightblue;
-	font-family: "arial", Times, serif;
+	/*font-family: "arial", Times, serif;*/
+  /*font-family: 'PT Mono', monospace;*/
+  /*font-family: 'Reenie Beanie', cursive;*/
+  font-family: 'Mukta Malar', sans-serif;
 	margin: 50px;
 
    } 
 
-
 h1 {
-	font-family: "Comic Sans MS", "Comic Sans", cursive; 
+	/*font-family: "Comic Sans MS", "Comic Sans", cursive; */
+  font-family: 'Comic Neue', cursive;
 	margin: 55px; text-align: center; 
 } 
 
 h2 {
-  font-family: comic sans ; 
+  font-family: 'Comic Neue', cursive;
   margin: 55px; text-align: center; 
 } 
 
 h3 {
-  font-family: comic sans ; 
+  font-family: 'Comic Neue', cursive;
   margin: 55px; text-align: center; 
 } 
 
@@ -37,17 +50,14 @@ h3 {
 } */
 
 
-img{
-  width: 100%;
+img{ :100%;
+  /*width: 100%;
   height: 100%
-  margin:100px;
+  margin:100px;*/
 }
 
 
 /*.steps {text-align: center;}*/
-
-.leftsteps {}
-
 
 .flex-container{
   display: flex;
@@ -104,13 +114,52 @@ img{
 }
 
 
-figcaption{
-  visibility: hidden;
-  /*font-size:100;*/
-  color: darkblue 
+.poster{
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.grand:hover figcaption{
+
+
+.poster:hover{
+  background: none;
+}
+.poster:hover figcaption{
+  visibility: visible;
+}
+
+.grand{
+  background-image: url('grand.jpg');
+}
+
+.thrash{
+  background-image: url('thrash.jpg');
+}
+
+.gonz{
+  background-image: url('gonz.jpg');
+}
+
+.drop{
+  background-image: url('drop.jpg');
+}
+
+.street{
+  background-image: url('street.jpg');
+}
+
+.cabb{
+  background-image: url('cabb.jpg');
+}
+
+.old{
+  background-image: url('old.jpg');
+}
+
+.stace{
+  background-image: url('stace.jpg');
+}
+/*.grand:hover figcaption{
   visibility: visible;
 }
 
@@ -147,7 +196,7 @@ figcaption{
 .stace:hover figcaption{
   visibility: visible;
 }
-
+*/
 pre {text-align: center;
   font-size: 30px
 }
