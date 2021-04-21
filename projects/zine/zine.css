@@ -1,0 +1,22 @@
+.flex-container{
+  display: flex;
+}
+
+.poster{
+ background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.content {flex:2;
+padding: 1}
+
+
+.xkss {background-image: url('img/xkss.jpg');
+	/*flex :2;*/}
+
+.alfa33 {background-image: url('alfa33.jpg');
+	/*flex :2;*/}
+
+.Oldsmobile {background-image: url('Oldsmobile.jpg');
+	/*flex :2;*/}

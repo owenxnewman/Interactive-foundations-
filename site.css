@@ -1,3 +1,72 @@
+pre {font-size: 20px}
+
 body{
-	background: yellow;
+	background:black;
+	font-family: 'PT Mono', monospace;
+	color: white;
+}
+
+body.darkmode {
+	background: white;
+		color: black;
+}
+
+.content {
+	flex:2;
+	padding: 1
+}
+
+a {
+	margin-right: 20px;
+	text-decoration: none;
+	color:orange;
+}
+
+a:hover{
+
+}
+
+.flex-container{
+  display: flex;
+}
+
+
+.projects {
+	display: flex;
+}
+
+.projects li{
+	list-style-type: none;
+	background: blue ;
+	/*margin: 100p*/x
+	width: 90px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*border-radius: 50%;*/
+}
+
+img {
+	width: 50%;
+}
+
+
+.poster{
+ 	background-size: contain;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}
+
+/*.poster:hover{
+  background: none;
+}
+.poster:hover figcaption{
+  visibility: visible;
+}
+*/
+.me {
+	flex: 2;
+	background-image: url('img/me.jpg');
 }
