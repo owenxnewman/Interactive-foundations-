@@ -1,54 +1,17 @@
-/*body {background-image: url(img/pld.jpg);*/
-	  /*background-image: url(img/chek.jpg);*//*}*/
 
-.touring {
-	background-image: url(img/pld.jpg);
-}
-
-
-/*body.darkmode {
-	background: white;
-		color: black;*/
-
-.navlink{
-	border: 3px solid blue;
-	display: inline-block;
-    margin: 30px;
-    width: 160px;
-    text-align: center;
-    padding: 1em 0;
-}
-
-p{padding: 2rem;
-background-color:red;}
+*body {background-image: url(img/chek.jpg);*/}
 
 h1{color: white}
 
-/*figcaption{
- font-family: 'Chango', cursive;
-  font-family: 'Comic Neue', cursive;
-  visibility: hidden;
-  font-size: 100px;
-  color: red;}*/
-
-/*.track {height: 30px;
-		width:70px
-		background-color:blue;}
-*/
-
-.pages li{
-	list-style-type: none;
-	background: blue ;
-	width: 50px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.square {
+  height: 50px;
+  width: 3000px;
+  background-color: blue;
 }
 
-.poster:hover figcaption{
-  visibility: visible;
-} 
+.flex-container{
+  display: flex;
+}
 
 .poster{
  	background-size: cover;
@@ -57,31 +20,8 @@ h1{color: white}
 	background-position: center 
 }
 
-.square {height: 50px;
-  width: 1424px;
-  background-color: blue;}
-
-./*bodysquare {height: 100px;
-  width: 1424px;
-  background-color: blue;}
-*/
-.title {
-}
-
-.flex-container{
-  display: flex;
- /* background: white*/
-}
-
-/*.content{
-  flex: 50%;
-  padding: 1rem;
-}*/
-
-
-
-.f40e {background-image: url('img/f40e.jpg');
-	flex :2;}
+.content {flex:2;
+padding: 1}
 
 .merc {background-image: url('img/merc.jpg');
 	flex :2;}
@@ -94,10 +34,10 @@ h1{color: white}
 	flex :2;}
 
 .p917 {background-image: url('img/p917.jpg');
-	flex :2;}
-
+	flex: 2;}
 .gt40 {background-image: url('img/gt40.jpg');
-	flex :2;}
+	flex: 2; }
+.
 
 .m26 {background-image: url('img/m26.jpg');
 	/*flex :2;*/}
