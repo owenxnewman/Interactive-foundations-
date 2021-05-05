@@ -1,28 +1,132 @@
 /*body {background-image: url(img/pld.jpg);*/
 	  /*background-image: url(img/chek.jpg);*//*}*/
 
+body.darkmode {
+	background: orange;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.title {
+	background-color: black;
+	border: 1px #a72d2f;
+	padding: 1em 0;}
+
 .touring {
 	background-image: url(img/pld.jpg);
 }
 
+.track {background-image: url(img/chek.jpg);
+	font-family: 'Racing Sans One', cursive;}
+
+.zabout{background-color:#a72d2f;
+		/*font-family: 'Archivo Narrow', sans-serif;*/
+        font-family: 'Francois One', sans-serif; }
+
+/*.home {background-color:#a72d2f }*/
+
+.zhome {position: center;
+	background-color:#898f7f;
+ }
+
+/*.laman {background-image: url(img/laman.jpg)}*/
 
 /*body.darkmode {
 	background: white;
 		color: black;*/
 
+/*styling for home page links*/
+.homelink{
+	display: block;
+	margin: auto;
+	font-family: 'Anton', sans-serif;
+	color:lightgray;
+	font-size: 30px;
+	width: 500px;
+   /* height: 600px;*/
+    text-align: center;
+    padding: 1em 0;
+  	border: 3px solid white;
+  	font-size:45px;
+}
+
+
+
 .navlink{
-	border: 3px solid blue;
+	font-family: 'Anton', sans-serif; 
+	background-color: white;
 	display: inline-block;
-    margin: 30px;
     width: 160px;
     text-align: center;
     padding: 1em 0;
 }
 
-p{padding: 2rem;
-background-color:red;}
+.navlink2{
+	/*font-family: 'Anton', sans-serif;
+	font;color:#a72d2f ;
+	font-size: 30px; 
+	background-color: lightgray;*/
+/*	border: 3px solid white;*/
+	/*display: inline-block;*/
+/*    width: 500px;
+    height: 100px;
+    text-align: center;
+    padding: 1em 0;*/
+}
 
-h1{color: white}
+.navlink3{
+	background-color:#a72d2f;
+/*	font-family: 'Anton', sans-serif;
+	font;color:#a72d2f ; 
+	font-size: 30px;
+	background-color: lightgray;
+	border: 3px black;*/
+	/*display: inline-block;*/
+/*    width: 500px;
+    height: 100px;
+    text-align: center;
+    padding: 1em 0;*/
+}
+
+.navlink4{
+/*	font-family: 'Anton', sans-serif; 
+	font;color:#a72d2f ;
+	font-size: 30px;*/
+	background-image : url(img/laman.jpg);
+/*	border: 3px black;
+	/*display: inline-block;*/
+/*    width: 500px;
+    height: 600px;
+    text-align: center;
+    padding: 1em 0;*/
+}
+
+.navlink5{
+/*	font-family: 'Anton', sans-serif;
+	font;color:#a72d2f ;
+	font-size: 30px;*/
+	background-image : url(img/bug.jpg);
+	/*display: inline-block;*/
+/*    width: 500px;
+    height: 600px;
+    text-align: center;
+    padding: 1em 0;*/
+}
+
+p{padding: 2rem;
+background-color:white;}
+
+h1{font-family: 'Racing Sans One', cursive;
+	color: white;
+	text-align: center;}
+
+h2{font-family: 'Racing Sans One', cursive;
+	color: white;
+	text-align: center;}
 
 /*figcaption{
  font-family: 'Chango', cursive;
@@ -55,11 +159,11 @@ h1{color: white}
 	background-repeat: no-repeat;
 	height: 800px;
 	background-position: center 
+
 }
 
-.square {height: 50px;
-  width: 1424px;
-  background-color: blue;}
+.square {
+  background-color: #a72d2f;}
 
 ./*bodysquare {height: 100px;
   width: 1424px;

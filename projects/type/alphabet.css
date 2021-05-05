@@ -1,0 +1,9 @@
+.navlink{
+	background-color: green;
+	border: 3px #a72d2f;
+	display: inline-block;
+    margin: 30px;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+}
