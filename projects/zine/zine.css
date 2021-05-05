@@ -2,7 +2,7 @@
 	  /*background-image: url(img/chek.jpg);*//*}*/
 
 body.darkmode {
-	background: orange;
+	background: black;
 	color: black;
 }
 
@@ -25,6 +25,7 @@ a{
 
 .zabout{background-color:#a72d2f;
 		/*font-family: 'Archivo Narrow', sans-serif;*/
+		/*font-family: 'Faster One', cursive;*/
         font-family: 'Francois One', sans-serif; }
 
 /*.home {background-color:#a72d2f }*/
@@ -43,8 +44,9 @@ a{
 .homelink{
 	display: block;
 	margin: auto;
-	font-family: 'Anton', sans-serif;
-	color:lightgray;
+	font-family: 'Faster One', cursive;
+	/*font-family: 'Anton', sans-serif;*/
+	color:white;
 	font-size: 30px;
 	width: 500px;
    /* height: 600px;*/
@@ -54,10 +56,13 @@ a{
   	font-size:45px;
 }
 
-
+.back {background-color: white;
+font-family: 'Racing Sans One', cursive;
+padding: 2em}
 
 .navlink{
-	font-family: 'Anton', sans-serif; 
+	font-family: 'Faster One', cursive;
+/*	font-family: 'Anton', sans-serif;*/ 
 	background-color: white;
 	display: inline-block;
     width: 160px;
@@ -96,7 +101,8 @@ a{
 /*	font-family: 'Anton', sans-serif; 
 	font;color:#a72d2f ;
 	font-size: 30px;*/
-	background-image : url(img/laman.jpg);
+	background-image : url(img/bend.jpg);
+	background-position: top 100px;
 /*	border: 3px black;
 	/*display: inline-block;*/
 /*    width: 500px;
@@ -109,7 +115,7 @@ a{
 /*	font-family: 'Anton', sans-serif;
 	font;color:#a72d2f ;
 	font-size: 30px;*/
-	background-image : url(img/bug.jpg);
+	background-image : url(img/hell.jpg);
 	/*display: inline-block;*/
 /*    width: 500px;
     height: 600px;
@@ -183,6 +189,8 @@ h2{font-family: 'Racing Sans One', cursive;
 }*/
 
 
+.trak {background-image: url('img/trak.jpg');
+	flex :2;}
 
 .f40e {background-image: url('img/f40e.jpg');
 	flex :2;}
