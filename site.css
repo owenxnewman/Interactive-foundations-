@@ -25,11 +25,26 @@ a {
 a:hover{
 
 }
-
+ 
 .flex-container{
   display: flex;
 }
 
+.homelink{
+	display: block;
+	margin: auto;
+	font-family: 'Faster One', cursive;
+	/*font-family: 'Anton', sans-serif;*/
+	color:white;
+	font-size: 30px;
+	width: 500px;
+   /* height: 600px;*/
+    text-align: center;
+    padding: 1em 0;
+  	border: 3px solid white;
+  	font-size:45px;
+
+  }
 
 .projects {
 	display: flex;
