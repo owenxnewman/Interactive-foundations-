@@ -10,8 +10,8 @@ $(document).ready(function(){
 	});
 
 
-	$("#apple").click(function(){
-		console.log('clicked');
-		$('h1').toggleClass('special');
-	});
-});
+// 	$("#apple").click(function(){
+// 		console.log('clicked');
+// 		$('h1').toggleClass('special');
+// 	});
+// });

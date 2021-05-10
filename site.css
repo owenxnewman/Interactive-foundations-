@@ -7,7 +7,7 @@ body{
 }
 
 body.darkmode {
-	background: white;
+	background: red;
 	color: black;
 }
 
@@ -17,10 +17,26 @@ body.darkmode {
 }
 
 a {
-	margin-right: 20px;
-	text-decoration: none;
+	/*margin-right: 20px;*/
+	/*text-decoration: none;*/
 	color:orange;
+
+	display: block;
+	margin: auto;
+	font-family: 'Goblin One', cursive;
+	/*font-family: 'Anton', sans-serif;*/
+	color:white;
+	font-size: 30px;
+	width: 500px;
+   /* height: 600px;*/
+    text-align: center;
+    padding: 1em 0;
+  	border: 3px solid white;
+  	font-size:45px;
+
 }
+
+.web {font-size: 100px;}
 
 a:hover{
 
@@ -30,7 +46,7 @@ a:hover{
   display: flex;
 }
 
-.homelink{
+/*.homelink{
 	display: block;
 	margin: auto;
 	font-family: 'Faster One', cursive;
@@ -44,7 +60,8 @@ a:hover{
   	border: 3px solid white;
   	font-size:45px;
 
-  }
+  }*/
+
 
 .projects {
 	display: flex;
